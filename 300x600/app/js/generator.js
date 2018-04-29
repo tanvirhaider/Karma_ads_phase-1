@@ -1,3 +1,8 @@
+
+
+var childIndex = 0;
+
+
 function generateAhref (data)
 {
     var holderDiv = document.createElement("div");
@@ -24,26 +29,26 @@ function generateAhref (data)
 }
 
 
-function createClass(name,rules)
-{
-    var style = document.createElement('style');
-    style.type = 'text/css';
-    style.media = 'all';
-    document.getElementsByTagName('head')[0].appendChild(style);
-    if(!(style.sheet||{}).insertRule)  {(style.styleSheet || style.sheet).addRule(name, rules);}
-    else {style.sheet.insertRule(name+"{"+rules+"}",0);}
-}
+// function createClass(name,rules)
+// {
+//     var style = document.createElement('style');
+//     style.type = 'text/css';
+//     style.media = 'all';
+//     document.getElementsByTagName('head')[0].appendChild(style);
+//     if(!(style.sheet||{}).insertRule)  {(style.styleSheet || style.sheet).addRule(name, rules);}
+//     else {style.sheet.insertRule(name+"{"+rules+"}",0);}
+// }
 
 
-function createIMG(container, src, id, alt, title) {
-    var img = new Image();
-    img.src = src;
-    if ( id != null ) img.id = id;
-    if ( alt != null ) img.alt = alt;
-    if ( title != null ) img.title = title;
-    container.appendChild(img);
-    return img;
-}
+// function createIMG(container, src, id, alt, title) {
+//     var img = new Image();
+//     img.src = src;
+//     if ( id != null ) img.id = id;
+//     if ( alt != null ) img.alt = alt;
+//     if ( title != null ) img.title = title;
+//     container.appendChild(img);
+//     return img;
+// }
 
 
 function Stage(data) // (Number, Number, css.style.background)
@@ -126,6 +131,8 @@ function Sprite(data)
     if (data.id) { obj.setAttribute('id', data.id); }
     else { obj.setAttribute('id',''); }
 
+    var imgW, imgH, style;
+
     if (data.class) {
         obj.className += data.class;
     }
@@ -151,10 +158,10 @@ function Sprite(data)
 
     if (data.image)
     {
-        var imgW = data.width +'px';
-        var imgH = data.height +'px';
+        imgW = data.width +'px';
+        imgH = data.height +'px';
 
-        var style = obj.style;
+        style = obj.style;
         style.width = imgW;
         style.height = imgH;
         style.backgroundImage = 'url(' +data.image+ ')';
@@ -186,10 +193,10 @@ function Sprite(data)
     }
     if (data.color)
     {
-        var imgW = data.width +'px';
-        var imgH = data.height +'px';
+        imgW = data.width +'px';
+        imgH = data.height +'px';
 
-        var style = obj.style;
+        style = obj.style;
         style.width = imgW;
         style.height = imgH;
         style.backgroundColor = data.color;
@@ -197,7 +204,7 @@ function Sprite(data)
 
     if (data.gradient)
     {
-        var style =     this.obj.style;
+        style =     this.obj.style;
         style.width =   data.gradient.width + "px";
         style.height =  data.gradient.height + "px";
         style.background = '-webkit-linear-gradient('   + data.gradient.direction + ',' + data.gradient.color1 + ', ' + data.gradient.color2 +')';
@@ -226,40 +233,40 @@ function Sprite(data)
 
     if (data.click)
     {
-        var obj = this.obj;
+        obj = this.obj;
         obj.addEventListener('click', data.click.function,false);
         obj.style.cursor="pointer";
     }
 
     if (data.over)
     {
-        var obj = this.obj;
+        obj = this.obj;
         obj.addEventListener('mouseover', data.over.function,false);
         obj.style.cursor="pointer";
     }
 
     if (data.out)
     {
-        var obj = this.obj;
+        obj = this.obj;
         obj.addEventListener('mouseout', data.out.function,false);
         obj.style.cursor="pointer";
     }
 
     if (data.mousemove)
     {
-        var obj = this.obj;
+        obj = this.obj;
         obj.addEventListener('mousemove', data.mousemove.function,false);
        // obj.style.cursor="pointer";
     }
 
     var xval = 0;
     var yval = 0;
-    var rotationval = 0;
+  //  var rotationval = 0;
 
     if (data.x) { xval = data.x;}
     if (data.y) { yval = data.y;}
     if (data.z) {
-        var style = obj.style;
+        style = obj.style;
         style.zIndex = data.z;
     }
 

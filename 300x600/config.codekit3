@@ -9,45 +9,16 @@
 	],
 "creatorBuild": "26680",
 "files": {
-	"\/app\/images\/copy1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/images\/copy1.svg",
-		"oF": 3,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/app\/images\/copy2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/images\/copy2.svg",
-		"oF": 3,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/app\/images\/copy3.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/images\/copy3.svg",
-		"oF": 3,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/app\/images\/copy4.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/images\/copy4.svg",
-		"oF": 3,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+	"\/app\/images\/carmasked.png": {
+		"ft": 32768,
+		"iS": 31719,
+		"oA": 0,
+		"oAP": "\/build\/images\/carmasked.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/app\/images\/cta.png": {
 		"ft": 32768,
@@ -60,32 +31,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/app\/images\/drive_btn.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/images\/drive_btn.svg",
-		"oF": 3,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/app\/images\/header.png": {
 		"ft": 32768,
 		"iS": 4071,
 		"oA": 2,
 		"oAP": "\/build\/images\/header.png",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/images\/karmalogo.png": {
-		"ft": 32768,
-		"iS": 14005,
-		"oA": 2,
-		"oAP": "\/build\/images\/karmalogo.png",
 		"oF": 3,
 		"oIPL": 0,
 		"opt": 0,
@@ -114,67 +64,45 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/app\/images\/main.jpg": {
+	"\/app\/images\/sky-0.jpg": {
 		"ft": 16384,
-		"iS": 106274,
+		"iS": 3145,
 		"jF": 0,
-		"oA": 2,
-		"oAP": "\/build\/images\/main.jpg",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/app\/images\/red-car.jpg": {
-		"ft": 16384,
-		"iS": 36680,
-		"jF": 0,
-		"oA": 2,
-		"oAP": "\/build\/images\/red-car.jpg",
-		"oF": 3,
+		"oA": 0,
+		"oAP": "\/build\/images\/sky-0.jpg",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/app\/images\/sky.jpg": {
-		"ft": 16384,
-		"iS": 15657,
-		"jF": 0,
-		"oA": 2,
-		"oAP": "\/build\/images\/sky.jpg",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/app\/images\/sky2.png": {
+	"\/app\/images\/sky-seethrough.png": {
 		"ft": 32768,
-		"iS": 32235,
-		"oA": 2,
-		"oAP": "\/build\/images\/sky2.png",
-		"oF": 3,
+		"iS": 35959,
+		"oA": 0,
+		"oAP": "\/build\/images\/sky-seethrough.png",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/app\/images\/sky3.png": {
-		"ft": 32768,
-		"iS": 25651,
-		"oA": 2,
-		"oAP": "\/build\/images\/sky3.png",
-		"oF": 3,
+	"\/app\/images\/water.jpg": {
+		"ft": 16384,
+		"iS": 5218,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/images\/water.jpg",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"oT": 1,
 		"q": 100
 		},
-	"\/app\/images\/sky4.png": {
+	"\/app\/images\/wave.png": {
 		"ft": 32768,
-		"iS": 16102,
-		"oA": 2,
-		"oAP": "\/build\/images\/sky4.png",
-		"oF": 3,
+		"iS": 24712,
+		"oA": 0,
+		"oAP": "\/build\/images\/wave.png",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,

@@ -1,13 +1,9 @@
 
 var preload = [
-    'images/red-car.jpg',
-    'images/copy1.svg',
-    'images/copy2.svg',
-    'images/copy3.svg',
-    'images/copy4.svg',
-    'images/drive_btn.svg',
-    'images/sky.jpg',
-    'images/sky4.png'];
+    'images/carmasked.png',
+    'images/cta.png',
+    'images/header.png',
+    'images/wave.png'];
     
     var adWidth = 300;
     var adHeight = 600;
