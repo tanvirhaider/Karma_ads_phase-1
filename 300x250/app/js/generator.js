@@ -272,6 +272,7 @@ function Sprite(data)
 
     obj.style.transform = "translate("+ xval + "px," + yval + "px)";
 
+     // mask: {x:"0",y:"100",width:"100",height:"200"}
     if (data.mask)
     {
         obj.style.clip = 'rect('+data.mask.y+'px,' +

@@ -9,25 +9,14 @@
 	],
 "creatorBuild": "26680",
 "files": {
-	"\/app\/images\/carmasked.png": {
+	"\/app\/images\/cta.png": {
 		"ft": 32768,
-		"iS": 31719,
+		"iS": 1327,
 		"oA": 0,
-		"oAP": "\/build\/images\/carmasked.png",
+		"oAP": "\/build\/images\/cta.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/images\/cta.png": {
-		"ft": 32768,
-		"iS": 1526,
-		"oA": 2,
-		"oAP": "\/build\/images\/cta.png",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -36,28 +25,6 @@
 		"iS": 4071,
 		"oA": 2,
 		"oAP": "\/build\/images\/header.png",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/images\/logo-horizontal.png": {
-		"ft": 32768,
-		"iS": 11709,
-		"oA": 2,
-		"oAP": "\/build\/images\/logo-horizontal.png",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/images\/logo.png": {
-		"ft": 32768,
-		"iS": 30147,
-		"oA": 2,
-		"oAP": "\/build\/images\/logo.png",
 		"oF": 3,
 		"oIPL": 0,
 		"opt": 0,
